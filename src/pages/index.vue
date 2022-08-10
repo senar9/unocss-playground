@@ -12,7 +12,7 @@ const mode = useColorMode({
 
 <template>
   <main scroll-smooth p-3>
-    <header flex items-center border="main dashed 2px">
+    <header sticky top-0 backdrop-blur-md shadow z-10 flex items-center border="main dashed 2px">
       <nav dark:text-fc flex flex-row flex-nowrap overflow-x-auto m-3 class="[&>a]:p-3 [&>a]:rounded-lg [&>a]:mr-2 [&>a]:border-main [&>a]:border-1px">
         <a href="#text-size-color">text-size-color</a>
         <a href="#grid">grid</a>
@@ -31,7 +31,7 @@ const mode = useColorMode({
           学生
         </option>
       </select>
-      <button icon-btn @click="toggleDark()">
+      <button cursor-pointer @click="toggleDark()">
         <div v-if="isDark" text="lg dark:fc" i-carbon-moon />
         <div v-else text="lg dark:fc" i-carbon-sun />
       </button>

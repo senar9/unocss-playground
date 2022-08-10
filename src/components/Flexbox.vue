@@ -4,7 +4,7 @@
 
 <template>
   <div id="flexbox">
-    <p m-3 text="purple dark:purple-300">
+    <p class="common-title" m-3 text="purple dark:purple-300">
       FlexBox
     </p>
     <div border="~ purple rounded" flex flex-col items-center justify-evenly>

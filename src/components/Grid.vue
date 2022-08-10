@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <h3 id="grid" text="blue-500 dark:blue">
+  <h3 id="grid" class="common-title" my-3 text="blue-500 dark:blue">
     Grid Layout
   </h3>
   <div w-90 h-90 grid grid-rows-5 grid-cols-5 gap-10px border="~ gray">

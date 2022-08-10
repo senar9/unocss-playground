@@ -4,7 +4,7 @@
 
 <template>
   <div id="text-size-color" dark:text-fc class="[&>p]:inline-block [&>p]:mx-3 [&>p]:p-3" text-right>
-    <h3>
+    <h3 class="common-title" whitespace-nowrap before="w-3 h-3 bg-main absolute ''">
       Text Size Color
     </h3>
     <p text-sm hover:scale-200>
@@ -22,7 +22,7 @@
     <p text-16px>
       16px text
     </p>
-    <p text-9xl bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:from-purple-500 hover:to-pink-500 bg-clip-text>
+    <p text-9xl bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:from-purple-500 hover:to-pink-500>
       9xl text
     </p>
   </div>
