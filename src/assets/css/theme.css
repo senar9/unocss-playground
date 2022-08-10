@@ -1,0 +1,9 @@
+:root {
+  --main: 249, 119, 198;
+}
+:root[theme="teacher"] {
+  --main:  167, 249, 198;
+}
+:root[theme="student"] {
+  --main: 41, 167, 249;
+}
